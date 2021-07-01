@@ -59,7 +59,7 @@ end
 
 if not isfile("hexagon/skyboxes.txt") then
 	print("downloading hexagon skyboxes file")
-	writefile("hexagon/skyboxes.txt", game:HttpGet("https://raw.githubusercontent.com/Pawel12d/hexagon/main/scripts/default_data/skyboxes.txt"))
+	writefile("hexagon/skyboxes.txt", game:HttpGet("https://raw.githubusercontent.com/akaunusal/4/main/main/scripts/default_data/skyboxes.txt"))
 end
 
 Hint.Text = "Hexagon | Loading..."
