@@ -1039,10 +1039,6 @@ local a,b = pcall(function()
 	end)
 end)
 
-if not a then
-	game.Players.LocalPlayer:Kick("Hexagon | Your custom models file is fucked up lol!")
-end
-
 MiscellaneousTabCategoryMain:AddDropdown("Inventory Changer", TableToNames(Inventories), "-", "MiscellaneousTabCategoryMainInventoryChanger", function(val)
 	local InventoryLoadout = LocalPlayer.PlayerGui.GUI["Inventory&Loadout"]
 	local InventoriesData = loadstring("return "..readfile("hexagon/inventories.txt"))()
